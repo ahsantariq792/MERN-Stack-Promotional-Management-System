@@ -1,0 +1,540 @@
+
+
+/* CSS for All */
+* {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1%;
+}
+.img-responsive {
+  width: 100%;
+}
+.img-curve {
+  border-radius: 15px;
+}
+
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-white {
+  color: white;
+}
+
+.clearfix {
+  clear: both;
+  float: none;
+}
+
+a {
+  color: #ff6b81;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff4757;
+}
+
+.btn {
+  padding: 1%;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.btn-primary {
+  background-color: #ff6b81;
+  color: white;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  color: white;
+  background-color: #ff4757;
+}
+h2 {
+  color: #2f3542;
+  font-size: 2rem;
+  margin-bottom: 2%;
+}
+h3 {
+  font-size: 1.5rem;
+}
+.float-container {
+  position: relative;
+}
+.float-text {
+  position: absolute;
+  bottom: 50px;
+  left: 40%;
+}
+fieldset {
+  border: 1px solid white;
+  margin: 5%;
+  padding: 3%;
+  border-radius: 5px;
+}
+
+
+
+/* CSS for Food SEarch Section */
+
+.food-search {
+  /* background-image: url(../images/bg.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 7% 0;
+}
+
+.food-search input[type="search"] {
+  width: 50%;
+  padding: 1%;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+/* CSS for Categories */
+.categories {
+  padding: 4% 0;
+}
+
+.box-3 {
+  width: 28%;
+  float: left;
+  margin: 2%;
+}
+
+/* CSS for Food Menu */
+.food-menu {
+  background-color: #ececec;
+  padding: 4% 0;
+}
+.food-menu-box {
+  width: 43%;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.food-menu-img {
+  width: 20%;
+  float: left;
+}
+
+.food-menu-desc {
+  width: 70%;
+  float: left;
+  margin-left: 8%;
+}
+
+.food-price {
+  font-size: 1.2rem;
+  margin: 2% 0;
+}
+.food-detail {
+  font-size: 1rem;
+  color: #747d8c;
+}
+
+
+/* for Order Section */
+.order {
+  width: 50%;
+  margin: 0 auto;
+}
+.input-responsive {
+  width: 96%;
+  padding: 1%;
+  margin-bottom: 3%;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.order-label {
+  margin-bottom: 1%;
+  font-weight: bold;
+}
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    width: 80%;
+    float: none;
+    margin: 1% auto;
+  }
+
+  .menu ul {
+    text-align: center;
+  }
+
+  .food-search input[type="search"] {
+    width: 90%;
+    padding: 2%;
+    margin-bottom: 3%;
+  }
+
+  .btn {
+    width: 91%;
+    padding: 2%;
+  }
+
+  .food-search {
+    padding: 10% 0;
+  }
+
+  .categories {
+    padding: 20% 0;
+  }
+  h2 {
+    margin-bottom: 10%;
+  }
+  .box-3 {
+    width: 100%;
+    margin: 4% auto;
+  }
+
+  .food-menu {
+    padding: 20% 0;
+  }
+
+  .food-menu-box {
+    width: 90%;
+    padding: 5%;
+    margin-bottom: 5%;
+  }
+  .social {
+    padding: 5% 0;
+  }
+  .order {
+    width: 100%;
+  }
+}
+
+.card-price-wrapper > span {
+  color: #2f333a;
+  font-weight: 500;
+}
+.card-price-wrapper > span.card-price-old {
+  color: #e02c2b;
+  margin-left: 12px;
+  text-decoration: line-through;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* Home page css starts here */
+
+.bgimage {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  margin-top: auto;
+  background: url(../images/home.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.container-main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  text-align: center;
+}
+
+.heading-home {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  border: 8px solid white;
+  border-style: ridge;
+  padding: 12px;
+}
+
+.add {
+  font-style: italic;
+  font-size: 26px;
+  color: white;
+  font-weight: 300;
+  font-family: cursive;
+}
+
+.buttons-home {
+  margin-top: 8%;
+}
+
+/* .btn-home a{
+    text-decoration: none;
+    color: white;
+} */
+
+#admin-btn {
+  background-color: rgb(7, 165, 7);
+}
+
+.btn-home {
+  color: white;
+  font-size: 24px;
+  background-color: red;
+  height: 60px;
+  margin-top: 3%;
+  width: 300px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s all;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+.btn-home:hover {
+  opacity: 0.9;
+  background-color: rgb(250, 102, 64);
+}
+
+/* Forms Css starts here */
+.signup-box {
+  /* margin-top: 100px; */
+  position: relative;
+  top: 4%;
+  left: 35%;
+  width: 360px;
+  height: 800px;
+  /* margin: auto; */
+  background-color: white;
+  border-radius: 3px;
+}
+
+.promo-box {
+  /* margin-top: 100px; */
+  position: relative;
+  top: 4%;
+  left: 35%;
+  width: 450px;
+  height: 750px;
+  /* margin: auto; */
+  background-color: lightslategrey;
+  border-radius: 8px;
+  padding-left: 2%;
+  /* box-shadow: 10px 20px rgb(223, 209, 209,0.5); */
+  
+}
+
+.promo-box > div > form > input {
+  width: 120%;
+}
+
+.promo-box > div > form > input:focus{
+  background-color: lightskyblue;
+  border: 1px solid black;
+}
+
+.promo-box > div > form > label{
+  font-size: 18px;
+  margin-left: 10px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.promo-box > div > form > button{
+  background-color: black;
+  margin-left: 20%;
+  font-size: 22px;
+  box-shadow: 5px 5px rgb(223, 209, 209,0.5);
+
+}
+
+.promo-box > div > form > button:hover{
+  background-color: rgb(243, 243, 55);
+  color: black;
+}
+
+.promo-box > h1{
+  font-size: 40px;
+  font-family: cursive;
+  text-transform: uppercase;
+  color: black;
+}
+
+
+.login-box {
+  width: 360px;
+  height: 380px;
+  margin: auto;
+  border-radius: 3px;
+  background-color: white;
+  position: relative;
+  top: 8%;
+  left: 13%;
+  transform: translate(-50%, 0);
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15px;
+  font-style: italic;
+  font-family: corbel;
+}
+
+.signuptext {
+  text-align: center;
+  color: black !important;
+}
+
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+
+.btn1 {
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #49c1a2;
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  font-family: corbel;
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+
+.para-2 {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.para-2 a {
+  color: red;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.containerform {
+  margin: 0%;
+  background-image: url(../images/brooke-lark-HlNcigvUi4Q-unsplash.jpg);
+  position: relative;
+  height: 120vh;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.containerformpromo {
+  margin: 0%;
+  background-image: url(https://images.unsplash.com/photo-1496930666207-e76e8253a950?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+  position: relative;
+  height: 130vh;
+  overflow: hidden;
+  background-size: cover;
+}
+
+/* Main Navbar Css starts here */
+
+/* .navbar .container-fluid{
+  position: relative;
+  top: 0% !important;
+  background-color: rgb(32, 22, 22);
+  margin: 0px !important;
+  overflow: hidden;
+} */
+
+.container-fluid a {
+  text-decoration: none;
+  font-size: 24px;
+  font-family: cursive;
+  margin-left: 16px;
+
+}
+
+a .dropdown-item{
+  font-size: 18px;
+  width: auto;
+}
+
+#adminlogin{
+  background-color: rgb(116, 223, 30);
+  width: 300px;
+}
+
+.welcome{
+  border: 2px white solid;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
+/* Navbar Css ends   here */
+
+
+.orderbtn {
+  width: 150px;
+  position: relative;
+  left: 20%;
+}
+
+.card-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.card1 {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* margin-top: 10%; */
+  padding: 10% auto;
+}
+
+.card {
+  margin-top: 5%;
+  line-height: 3px;
+}
+
+.card img {
+  height: 280px;
+  width: 280px;
+}

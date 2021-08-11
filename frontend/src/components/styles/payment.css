@@ -1,0 +1,87 @@
+.payment-box {
+    position: relative;
+    top: 4%;
+    left: 35%;
+    width: 420px;
+    height: 600px;
+    background-color: rgb(209, 202, 202);
+    border-radius: 3px;
+    text-align: center;
+  }
+  
+
+  
+  .pay {
+    text-align: center;
+    padding-top: 15px;
+    font-style: italic;
+    font-family: corbel;
+  }
+  
+  .ordertext {
+    text-align: center;
+    color: black !important;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  form {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .payinp {
+    width: 120%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+  }
+  
+  .btn8 {
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(7, 168, 7);
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-family: corbel;
+    text-decoration: none;
+    margin-left: 20%;
+  }
+  
+ 
+  
+  .btn a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .paymentform {
+    margin: 0%;
+    background-image: url(https://previews.123rf.com/images/vaaseenaa/vaaseenaa1901/vaaseenaa190100189/115494096-junk-food-concept-unhealthy-food-background-fast-food-and-sugar-burger-sweets-chips-chocolate-donuts.jpg);
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+  }
+
+
+  .label{
+    background-color: rgb(235, 206, 151);
+    width: 120%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+  }

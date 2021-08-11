@@ -1,0 +1,112 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+
+}
+
+.mainbox{
+  background-color: rgb(66, 62, 62);
+
+}
+
+.mainbox{
+  background: linear-gradient(0deg, rgb(73, 71, 71) 43%,black 52%);
+
+}
+
+/* .navbar {
+  height: 80px;
+  background-color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  color: white;
+  margin: 0px;
+  vertical-align: middle;
+  letter-spacing: 5px;
+  width: 100%;
+} */
+
+
+/* Width of slider image */
+img {
+  height: 450px;
+  width: 350px;
+}
+
+.card-info {
+  text-align: center;
+  margin: 5px;
+  padding: 0px;
+  color: white;
+}
+
+.cards {
+  width: 320px;
+  height: 430px;
+  text-align: center;
+  border: 2px solid grey;
+  border-radius: 8px;
+  /* box-shadow: 6px 6px lightgrey; */
+  margin-bottom: 50px;
+
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 25px;
+
+}
+
+.cards .card .cimg{
+  height: 260px;
+  width: 316px;
+
+}
+
+button {
+  background-color: rgb(247, 44, 44);
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  margin-top: 15px;
+  font-family: corbel;
+  font-size: 20px;
+  font-style: italic;
+
+}
+
+button:hover {
+  transform: scale(1.08);
+  /* opacity: 0.7; */
+  background-color: lightcoral;
+}
+
+
+.chead{
+  font-family: corbel;
+  font-weight: bold;
+  color: white;
+  word-spacing: 10px;
+}
+
+hr{
+  color: white;
+  
+}
+
+.card-category{
+  font-style: italic;
+  color: yellow;
+  font-size: 18px;
+  font-family: corbel;
+}
+

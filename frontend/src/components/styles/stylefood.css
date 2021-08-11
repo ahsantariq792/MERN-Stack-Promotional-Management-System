@@ -1,0 +1,339 @@
+
+* {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+
+.img-responsive {
+  width: 100%;
+}
+.img-curve {
+  border-radius: 15px;
+}
+
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+  width: 100%;
+  font-family: cursive;
+  font-weight: bold;
+  color: rgb(83, 255, 255);
+  /* border-bottom: 1px solid white; */
+}
+.text-left {
+  text-align: left;
+}
+.text-white {
+  color: white;
+}
+
+
+a {
+  color: #ff6b81;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff4757;
+}
+
+.btn {
+  padding: 1%;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 0px;
+  width: 150px;
+}
+.btn-primary {
+  background-color: #ff6b81;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+
+
+}
+
+.after{
+  font-style: italic;
+}
+.btn-primary:hover {
+  color: white;
+  background-color: rgb(28, 204, 28);
+}
+h2 {
+  color: #2f3542;
+  font-size: 2rem;
+  margin-bottom: 2%;
+}
+h3 {
+  font-size: 1.5rem;
+}
+
+h4{
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+  font-family: cursive;
+}
+.float-container {
+  position: relative;
+}
+.float-text {
+  position: absolute;
+  bottom: 50px;
+  left: 40%;
+}
+fieldset {
+  border: 1px solid white;
+  margin: 5%;
+  padding: 3%;
+  border-radius: 5px;
+}
+
+
+
+/* CSSS for navbar section */
+
+/* .logo {
+  width: 10%;
+  float: left;
+}
+.menu {
+  line-height: 60px;
+}
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 1%;
+  font-weight: bold;
+} */
+
+/* CSS for Food SEarch Section */
+
+.food-search {
+  /* background-image: url(../images/header.jpeg); */
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/back_pic/03/70/92/9057b6fa2816639.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 7% 0;
+}
+
+.food-search input[type="search"] {
+  width: 50%;
+  padding: 1%;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+/* CSS for Categories */
+.categories {
+  padding: 4% 0;
+}
+
+.box-3 {
+  width: 28%;
+  float: left;
+  margin: 2%;
+}
+
+/* CSS for Food Menu */
+.food-menu {
+  background-color: #ececec;
+  padding: 4% 0;
+  background: linear-gradient(45deg, rgb(73, 71, 71) 43%,black 52%);
+
+}
+.food-menu-box {
+  display: flex;
+  justify-content: space-around;
+  width: 45%;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+  background-color: grey;
+  border-radius: 15px;
+}
+
+.food-menu-img img {
+  width: 150px;
+  height: 150px;
+  float: left;
+}
+
+.food-menu-desc {
+  width: 70%;
+  float: left;
+  margin-left: 8%;
+}
+
+.food-price {
+  font-size: 1.2rem;
+  margin: 2% 0;
+}
+.food-detail {
+  font-size: 14px;
+  color: rgb(247, 247, 115);
+  margin-top: 10px;
+  padding: 5px;
+  column-gap: 40px;
+}
+
+
+/* for Order Section */
+.order {
+  width: 50%;
+  margin: 0 auto;
+}
+.input-responsive {
+  width: 96%;
+  padding: 1%;
+  margin-bottom: 3%;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.order-label {
+  margin-bottom: 1%;
+  font-weight: bold;
+}
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    width: 80%;
+    float: none;
+    margin: 1% auto;
+  }
+
+  .menu ul {
+    text-align: center;
+  }
+
+  .food-search input[type="search"] {
+    width: 90%;
+    padding: 2%;
+    margin-bottom: 3%;
+  }
+
+  .btn {
+    width: 91%;
+    padding: 2%;
+  }
+
+  .food-search {
+    padding: 10% 0;
+  }
+
+  .categories {
+    padding: 20% 0;
+  }
+  h2 {
+    margin-bottom: 10%;
+  }
+  .box-3 {
+    width: 100%;
+    margin: 4% auto;
+  }
+
+  .food-menu {
+    padding: 20% 0;
+    
+  }
+
+  .food-menu-box {
+    width: 90%;
+    padding: 5%;
+    margin-bottom: 5%;
+  }
+  .social {
+    padding: 5% 0;
+  }
+  .order {
+    width: 100%;
+  }
+}
+
+.card-price-wrapper > span {
+  color: greenyellow;
+  font-weight: 500;
+  font-family: corbel;
+  font-size: 22px;
+
+}
+.card-price-wrapper > span.card-price-old {
+  color: #e02c2b;
+  margin-left: 12px;
+  text-decoration: line-through;
+}
+
+.addpromo{
+  color: yellow;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+  position: absolute;
+  top: 60%;
+  left: 83%;
+  font-style: italic;
+  border: 2px white solid;
+  border-radius: 6px;
+  padding: 4px;
+}
+
+.addpromo:hover{
+  background-color: rgb(162, 248, 32);
+  color: black;
+}
+
+.promohead{
+  color: white;
+  font-size: 48px;
+  position: relative;
+  left: 22%;
+  font-family: cursive;
+  border: 10px gold ridge;
+  padding: 10px;
+}
+
+.promohead2{
+  color: white;
+  font-size: 48px;
+  position: relative;
+  left: 35%;
+  font-family: cursive;
+  padding: 10px;
+
+}
+
+.restauranthead{
+  color: white;
+  position: absolute;
+  top: 57%;
+  left: 15%;
+  font-size: 20px;
+  font-style: italic;
+}
+
+
+.delbtn{
+  background-color: red;
+  color: white;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: corbel;
+}
